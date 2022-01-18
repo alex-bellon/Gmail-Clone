@@ -15,7 +15,7 @@ const InboxContent = ({ changePage, currentMessages }) => {
 
   return (
     <InboxContainer>
-      <CategoryBtn />
+      <CategoryBtn  />
       {currentMessages.map((data, index) => (
         <MessageTemplate key={index} data={data} />
       ))}
